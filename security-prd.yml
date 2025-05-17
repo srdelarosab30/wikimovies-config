@@ -1,0 +1,25 @@
+connectionStrings:
+  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$"
+rabbitMq:
+  hostName": rabbit-nh
+  userName": admin_nh
+  password": NewHorizons.2025
+jwt:
+  issuer": nh.wikimovies.api
+  audience": nh.wikimovies.web
+  secretKey": T87pojuwAmZFUW72zCqbAF2acdaXbbyO_NH2025
+  lifetime": 3600
+cors:
+  origins:
+    - http://localhost:5118
+    - https://domain1.com.pe
+    - https://domain2.com.pe
+    - https://domain3.com.pe
+    - https://domain4.com.pe
+  methods:
+    - GET
+    - POST
+    - PUT
+    - DELETE
+    - OPTIONS
+    - PATH
