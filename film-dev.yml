@@ -1,6 +1,6 @@
 applicationName: wikimovies-film-api
 connectionStrings:
-  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$"
+  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$
 rabbitMq:
   hostName: rabbit-nh
   userName: admin_nh
