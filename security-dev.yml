@@ -1,14 +1,14 @@
 connectionStrings:
-  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$"
+  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$
 rabbitMq:
-  hostName": rabbit-nh
-  userName": admin_nh
-  password": NewHorizons.2025
+  hostName: rabbit-nh
+  userName: admin_nh
+  password: NewHorizons.2025
 jwt:
-  issuer": nh.wikimovies.api
-  audience": nh.wikimovies.web
-  secretKey": T87pojuwAmZFUW72zCqbAF2acdaXbbyO_NH2025
-  lifetime": 3600
+  issuer: nh.wikimovies.api
+  audience: nh.wikimovies.web
+  secretKey: T87pojuwAmZFUW72zCqbAF2acdaXbbyO_NH2025
+  lifetime: 3600
 cors:
   origins:
     - http://localhost:5118
