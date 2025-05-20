@@ -1,5 +1,5 @@
 connectionStrings:
-  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$
+  wikimovies: Data Source=mssql-wikimovies; Initial Catalog=wiki-movies; User Id=sa; Password=WikiMovies2025@$;Encrypt=False;TrustServerCertificate=True
 rabbitMq:
   hostName: rabbit-nh
   userName: admin_nh
