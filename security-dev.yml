@@ -9,17 +9,3 @@ jwt:
   audience: nh.wikimovies.web
   secretKey: T87pojuwAmZFUW72zCqbAF2acdaXbbyO_NH2025
   lifetime: 3600
-cors:
-  origins:
-    - http://localhost:5118
-    - https://domain1.com.pe
-    - https://domain2.com.pe
-    - https://domain3.com.pe
-    - https://domain4.com.pe
-  methods:
-    - GET
-    - POST
-    - PUT
-    - DELETE
-    - OPTIONS
-    - PATH
