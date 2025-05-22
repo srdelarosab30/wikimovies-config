@@ -5,7 +5,6 @@ jwt:
   lifetime: 3600
 cors:
   origins:
-    - http://localhost:5118
     - https://domain1.com.pe
     - https://domain2.com.pe
     - https://domain3.com.pe
